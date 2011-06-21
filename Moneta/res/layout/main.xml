@@ -3,11 +3,20 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="Hello World, StartupActivity"
-    />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Moneta, a shopping list application"
+        android:gravity="fill"
+        />
+    <Button
+        android:id="@+id_main/shopping_list_button"
+        android:text="@string/shopping_list_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        />
 </LinearLayout>
 
