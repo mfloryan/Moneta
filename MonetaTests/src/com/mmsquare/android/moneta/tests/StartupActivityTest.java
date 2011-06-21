@@ -1,6 +1,7 @@
-package com.mmsquare.android.moneta;
+package com.mmsquare.android.moneta.tests;
 
 import android.test.ActivityInstrumentationTestCase2;
+import com.mmsquare.android.moneta.StartupActivity;
 
 /**
  * This is a simple framework for a test of an Application.  See
